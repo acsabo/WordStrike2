@@ -21,7 +21,7 @@ UseNewDefaultFonts( 1 ) // since version 2.0.22 we can use nicer default fonts
 
 do
     
-
+	Print("WordStrike 2")
     Print( ScreenFPS() )
     Sync()
 loop
