@@ -1,0 +1,30 @@
+{
+  "description": "fist level",
+  "themes": [
+    {
+      "category": "Dogs",
+      "words": [
+        "Chihuahua",
+        "Rottweiler",
+        "Beagle",
+        "Labrador",
+        "Retriever"
+      ]
+    },
+    {
+      "category": "Space",
+      "words": [
+        "mercury",
+        "neptune",
+        "satellites",
+        "saturn",
+        "uranus",
+        "rings",
+        "titan",
+        "comets",
+        "earth",
+        "asteroids"
+      ]
+    }
+  ]
+}

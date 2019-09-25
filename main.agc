@@ -1,3 +1,9 @@
+#include "LevelLoader.agc"
+
+//description as String
+//category as String
+//description = LoadLevel() 
+LevelLoad() 
 
 // Project: WordStrike2 
 // Created: 2019-09-22
@@ -17,7 +23,8 @@ SetSyncRate( 30, 0 ) // 30fps instead of 60 to save battery
 SetScissor( 0,0,0,0 ) // use the maximum available screen space, no black borders
 UseNewDefaultFonts( 1 ) // since version 2.0.22 we can use nicer default fonts
 
-nav1=LoadImage("Blue ships/bluegrayship (1).png")
+/*
+nav1=LoadImage("Blue ships/bluegrayship (1).png") 
 fontImage=LoadImage("font1.png")
 
 dim fonts[26]
@@ -34,8 +41,7 @@ for i = 0 to 25
 	next j
 next i
 
-//background color
-SetClearColor(0x0, 0x70, 0x70)
+*/
 
 /*
 
@@ -49,14 +55,24 @@ for i = 1 to 13
 next i
 */
 
+
+//background color
+SetClearColor(0x0, 0x70, 0x70)
+
 do
 	if GetPointerPressed() 
 		sprite = GetSpriteHit( GetPointerX(), GetPointerY())
 	endif
 	
+	/*
+    Print(description)
+    Print(category)
 	Print(sprite)
 		
 	Print("WordStrike 2")
+	Print(Asc(Mid("ADRIANO",1,1)))
+	
     Print( ScreenFPS() )
+    */
     Sync()
 loop

@@ -49,6 +49,15 @@ output_path=/Users/adrianosabo/agk/WordStrike2/
 
 [projectfiles]
 FILE_0=main.agc;-1
+FILE_1=json_parser.agc;-1
+FILE_2=GUI.agc;-1
+FILE_3=LevelLoader.agc;-1
 
 [files]
-FILE_NAME_0=1;main.agc;657;0
+FILE_NAME_0=1;main.agc;1511;0
+FILE_NAME_1=0;json_parser.agc;5243;1
+FILE_NAME_2=0;GUI.agc;1;2
+FILE_NAME_3=0;LevelLoader.agc;539;3
+
+[project]
+description=
